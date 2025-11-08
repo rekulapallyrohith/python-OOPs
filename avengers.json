@@ -1,0 +1,132 @@
+{
+  "movie": {
+    "id": "mv-0001",
+    "title": "The Avengers",
+    "release_year": 2012,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "language": "English",
+    "budget": {
+      "amount": 220000000,
+      "currency": "USD",
+      "adjusted_for_inflation_2025": 281000000
+    },
+    "ratings": {
+      "imdb": 8.0,
+      "rotten_tomatoes": {
+        "critic_score": 91,
+        "audience_score": 92
+      },
+      "metacritic": 69
+    },
+    "production_companies": [
+      {
+        "id": "pc-001",
+        "name": "Marvel Studios",
+        "country": "USA",
+        "founded": 1993
+      }
+    ],
+    "box_office": {
+      "opening_weekend": 207400000,
+      "worldwide_gross": 1518815515,
+      "country_breakdown": {
+        "USA": 623357910,
+        "China": 135700000,
+        "UK": 80.5
+      }
+    },
+    "characters": [
+      {
+        "id": "ch-001",
+        "name": "Tony Stark",
+        "alias": "Iron Man",
+        "actor": {
+          "name": "Robert Downey Jr.",
+          "dob": "1965-04-04",
+          "nationality": "American"
+        },
+        "abilities": ["Genius", "Powered armor suit", "Tech expertise"],
+        "team_affiliation": "Avengers",
+        "screen_time_minutes": 42
+      },
+      {
+        "id": "ch-002",
+        "name": "Steve Rogers",
+        "alias": "Captain America",
+        "actor": {
+          "name": "Chris Evans",
+          "dob": "1981-06-13",
+          "nationality": "American"
+        },
+        "abilities": ["Enhanced strength", "Combat strategy", "Vibranium shield"],
+        "team_affiliation": "Avengers",
+        "screen_time_minutes": 38
+      },
+      {
+        "id": "ch-003",
+        "name": "Thor",
+        "actor": {
+          "name": "Chris Hemsworth",
+          "dob": "1983-08-11",
+          "nationality": "Australian"
+        },
+        "abilities": ["God of Thunder", "Mjolnir", "Superhuman strength"],
+        "home_world": "Asgard",
+        "screen_time_minutes": 36
+      }
+    ],
+    "villains": [
+      {
+        "name": "Loki",
+        "actor": "Tom Hiddleston",
+        "motive": "Control Earth",
+        "powers": ["Magic", "Illusions", "Superhuman intelligence"],
+        "army": {
+          "name": "Chitauri",
+          "origin": "Unknown Dimension",
+          "size": 100000
+        }
+      }
+    ],
+    "crew": {
+      "director": "Joss Whedon",
+      "writers": ["Joss Whedon", "Zak Penn"],
+      "music_composer": "Alan Silvestri"
+    },
+    "release_info": {
+      "world_premiere": "2012-04-11",
+      "US_release": "2012-05-04"
+    },
+    "distribution": {
+      "distributor": "Walt Disney Studios Motion Pictures",
+      "platforms": ["Theatrical", "Blu-ray", "Digital", "Disney+"]
+    },
+    "awards": [
+      {
+        "award": "Academy Awards",
+        "category": "Best Visual Effects",
+        "nominated": true,
+        "won": false
+      }
+    ],
+    "soundtracks": [
+      {
+        "id": "st-001",
+        "title": "Avengers Theme",
+        "composer": "Alan Silvestri",
+        "length_seconds": 194
+      }
+    ],
+    "tags": [
+      "Marvel",
+      "Superheroes",
+      "MCU",
+      "Blockbuster"
+    ],
+    "meta": {
+      "created_at": "2025-11-07T14:45:30Z",
+      "updated_at": "2025-11-07T14:45:30Z",
+      "source": "fan_compiled_dataset"
+    }
+  }
+}
